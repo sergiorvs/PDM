@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SalaActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/login"
+        android:layout_marginBottom="50dp"
+        />
+
+    <EditText
+        android:id="@+id/codigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Sala"
+        android:layout_margin="6dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:text="Ingresar"/>
+
+
+</LinearLayout>

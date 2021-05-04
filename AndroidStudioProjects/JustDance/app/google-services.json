@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1043099350729",
+    "firebase_url": "https://justdance-90af3.firebaseio.com",
+    "project_id": "justdance-90af3",
+    "storage_bucket": "justdance-90af3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043099350729:android:137ab174c41705d6a67f18",
+        "android_client_info": {
+          "package_name": "com.example.justdance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043099350729-9utjv86icj4atee0ocup6i6d7l48vm5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.justdance",
+            "certificate_hash": "e10ad0e45240efc37174b7ba4c2b0568f0f9e979"
+          }
+        },
+        {
+          "client_id": "1043099350729-j40osjvncbok5mvfqj9s8v9nl1tj8ilt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHUIlj7-RhIqmupbfLRV38KzwEn6GVUx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043099350729-j40osjvncbok5mvfqj9s8v9nl1tj8ilt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

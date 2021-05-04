@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">       
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+        <script src="js/conf.js" type="text/javascript"></script>
+        <script src="js/index.js" type="text/javascript"></script>        
+        
+        <title>Just Dance</title>
+    </head>
+<body>
+<header>
+    <ul class="nav nav-fill" style="background-color: #FF8D29">
+        <li class="nav-item ">
+            <div style="color: white">
+                <a class="nav-link" id="nameUser1" >Player 1</a>
+                <div class="d-flex justify-content-center">
+                    <div class="col">Score</div>
+                    <div class="col imageContainerP1">
+                        <img id="imgP1" width="200" src="TypePoints/null0.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="nav-item">
+            <div style="color: white">
+                <a class="nav-link" id="nameUser2">Player 2</a>
+                <div class="row d-flex justify-content-center">
+                    <div class="col">Score</div>
+                    <div class="col imageContainerP2">
+                        <img id="imgP2" width="200" src="TypePoints/null0.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="nav-item">
+            <div style="color: white">
+                <a class="nav-link" id="nameUser3">Player 3</a>
+                <div class="d-flex justify-content-center">
+                    <div class="col">Score</div>
+                    <div class="col imageContainerP3">
+                        <img id="imgP3" width="200" src="TypePoints/null0.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="nav-item">
+            <div style="color: white">
+                <a class="nav-link" id="nameUser4">Player 4</a>
+                <div class="d-flex justify-content-center">
+                    <div class="col">Score</div>
+                    <div class="col imageContainerP4">
+                        <img id="imgP4" width="200" src="TypePoints/null0.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</header>
+
+<div>
+
+</div>
+<!--iframe width="420" height="315" src="https://www.youtube.com/embed/pJwmSyJHkXk" frameborder="0" allowfullscreen></iframe-->
+<div class="row d-flex justify-content-center">
+    <video loop muted width="1500" allowfullscreen controls class="fullscreen-video"><!--unmuted autoplay-->>
+        <source style="display: block; margin: auto;"src="Just Dance 3 Da Funk - Daft Punk.mp4" type="video/mp4">    
+        Your browser does not support HTML5 video.
+    </video>
+</body>
+
+
+
+</html>
